@@ -1,0 +1,19 @@
+a{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    color: black;
+    background-color: DarkSlateGrey;
+}
+
+
+
+.enlacekir_tsi_kos:hover {
+    background-color: DarkGrey;
+}
+.enlacekir_tsi_kos:active {
+    background-color: DodgerBlue;
+}
