@@ -1,0 +1,15 @@
+#kir_tsi_kosancla1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+}
+
+.kir_tsi_kostClase1{
+    width: auto;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: cadetblue;
+    margin: auto;
+}

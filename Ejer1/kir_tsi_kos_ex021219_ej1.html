@@ -1,13 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Ejer</title>
-        <link rel="stylesheet" type="text/css" href="kir_tsi_kos_ex021219_ej1.css">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen 02-12-2019 /Kostadin Kirilov</title>
+    <link rel="stylesheet" type="text/css" href="kir_tsi_kos_ex021219_ej1.css">
+</head>
+
+<body>
+    <!-- kir_tsi_kos -->
+    <!--3.	Un enlace, alineado a la derecha, que lleve a un ancla “extraancla2” y 
+            que contenga a su vez un ancla “extraancla1”. Tendrá el texto “Ir a la 
+            parte inferior del examen de extra” (0.25 puntos).
+         -->
+    <a href="#kir_tsi_kosancla2" id="kir_tsi_kosancla1">Ir a la parte inferior del examen de kir_tsi_kos</a>
+
+    <!--4.	Una clase “extraClase1” que aplique un color de fuente “cadetblue”, espaciado entre letras de 1.5px, 
+        texto en mayúsculas, alineación de texto centrada:
+        •Añadir un encabezado, con el máximo tamaño, y aplicarle esta clase (0.2 puntos). 
+        El encabezado tendrá este texto “Bienvenido al examen de extra”.-->
+    <h1 class="kir_tsi_kostClase1">Bienvenido al examen de kir_tsi_kos</h1>
+
+    <!-- 5.	Un estilo particular “extraParticular1 que aplique outline a elección del usuario
+     pero que implemente color, anchura y estilo. Además, implemente una alineación centrada 
+     para texto, un padding general de 15px, color de fuente a elección del usuario.
+    •	Añadir un párrafo y aplicarle este estilo particular (0.3 puntos). El párrafo tendrá el 
+    texto “extra está aplicando el estilo particular Particular1extra a este párrafo”. -->
+    <p class="kir_tsi_kosParticular1">kir_tsi_kos está aplicando el estilo particular Particular1extra a este párrafo</p>
+
+    <!-- 6.	Aplicar un estilo en línea a una capa que dictamine lo siguiente:
+    •La capa debe estar centrada a nivel horizontal, con un ancho en porcentaje, 
+    una altura automática, un borde que no ocupe espacio con valores a elección del usuario,
+     color de fondo a elección del usuario, texto centrado, padding general de 25px y 
+     el siguiente texto “Esta capa creada cumple un estilo en línea y ha sido creada por extra” (0.5 puntos).-->
+
+     <div style="
+            margin: auto;
+            width: 50%;
+            height: auto;
+            box-sizing: border-box;
+            border: 2px solid black;
+            background-color: cyan;
+            text-align: center;
+            padding: 25px;" >
+        Esta capa creada cumple un estilo en línea y ha sido creada por kir_tsi_kos
+     </div>
+
+     <!-- 7.Mediante un selector de id, aplicar los siguientes estilos a un span que 
+        aparecerá fijado en la parte superior izquierda de la ventana del navegador. 
+        Los nombres de todo lo necesario para aplicar esto quedarán a elección del usuario, 
+        pero deberán contener extra en cada una de las definiciones necesarias. 
+        El span deberá tener el texto “Extra ha fijado este texto” (0.5 puntos). -->
+    <span id="kir_tsi_kosSpan">kir_tsi_kos ha fijado este texto</span>
+
+    <!-- 8.	Una imagen centrada, a nivel horizontal, que cumpla una clase que 
+        contenga extra en su nombre y muestre la imagen “Imagen1” de la carpeta Recursos. 
+        Renombrar la imagen a “extraImagen1”. 
+        Hay que respetar la extensión de la imagen. (0.25 puntos). -->
+    <img class="kir_tsi_kosImagen1" src="../Recursos/kir_tsi_kosImagen1.jpg" alt="Imagen1" width="300" height="300">
+
+    <!-- 9.	Crear una capa contenedora que cumpla la clase “extraContenedora1” 
+    que tenga los atributos: 70% del ancho de la página, tenga un margen superior 
+    a elección del usuario, esté centrada a nivel horizontal, con un color de fondo 
+    a elección del usuario, con una propiedad que evite que su contenido se desborde
+     y que contenga (0.75 puntos):
+    •Un párrafo, que cumpla un selector descendente, adecuado con su elemento contenedor
+     y que haga que aparezca con un tamaño de fuente, espaciado de letras y color personalizado,
+      con el contenido “Extra ha creado este párrafo y cumple un selector descendente” que aparezca 
+      a la derecha de una imagen “Imagen2” (ver recursos) flotante a la izquierda, que será renombrada 
+      a “Imagen2extra” (respetando su extensión).-->
+    <div class="kir_tsi_kosContenerdor" >
+        <p class="kir_tsi_kosContenedora1">kir_tsi_kos ha creado este párrafo y cumple un selector descendente </p>
+        <img class="kir_tsi_kosImagen2" src="../Recursos/Imagen2kir_tsi_kos.jpg" alt="Imagen2" width="300" height="300">
+    </div>
+
+    <!-- 10.Añadir una lista ordenada (que cumpla una clase “ollclase1extra” que aplique un margen superior 
+        personalizado por el usuario) de elementos cuyos <li> cumplan lo siguiente siempre que
+             tengan aplicada la clase “extraliclase1” (0.75 puntos): 
+        •	La lista tendrá el icono personalizado “IconoBB1” que se encuentra en la carpeta de recursos.
+        •	La primera letra tendrá tamaño de fuente 100% superior al tamaño establecido en la raíz y un color personalizado.
+        •	Los elementos de la lista serán: 
+        	Jimmy. 
+        	Kim. 
+        	Chuck.
+        	Mike.
+        	Gus.-->
+        <ul class="ollclase1kir_tsi_kos">
+            <li class="kir_tsi_kosliclase1">Jimmy</li>
+            <li class="kir_tsi_kosliclase1">Kim</li>
+            <li class="kir_tsi_kosliclase1">Chuck</li>
+            <li class="kir_tsi_kosliclase1">Mike</li>
+            <li class="kir_tsi_kosliclase1">Gus</li>
+        </ul>
+    <!-- 11.Añadir un párrafo que cumpla un estilo particular, que contenga en su nombre 
+        la palabra extra, que tenga una fuente personalizada descargada desde este enlace
+        y que tenga el texto “Extra ha creado todo el contenido anteriormente presentado. 
+        Nos despedimos del primer ejercicio del examen”. Este párrafo se encontrará centrado 
+        a nivel vertical y horizontal y estará dentro de una capa contenedora que cumpla 
+        la clase “Contenedora2extra”, que estará centrada, un borde a elección del usuario y 
+        unas dimensiones también personalizadas. (0.5 puntos). -->
+    <div class="Contenedora2ekir_tsi_kos">
+        <p class="kir_tsi_kosParrafoPersonalizado">kir_tsi_kos ha creado todo el contenido anteriormente presentado. 
+        Nos despedimos del primer ejercicio del examen</p>
+    </div>
+
+    <!-- 12.Crear dos clases “extraClases1” y “Clases2extra” y aplicárselas a un enlace, de tal manera que resulte lo siguiente (0.75 puntos):
+    •	extraClases1: No aparecerá subrayado, tendrá altura de línea 2.2, tendrá alineación de texto centrada y un color a elección del usuario.
+    •	Clases2extra: 
+    	El enlace tendrá por defecto color Chartreuse.
+    	Cuando haya sido visitado el enlace, el enlace tendrá otro color diferente a elección del usuario.
+    	Cuando esté activo el enlace, aplicará color LavenderBlush.
+    	Cuando se sitúe el ratón encima del enlace, aplicará el color SpringGreen.
+    •	El enlace tendrá el texto “Extra ha creado el Ejercicio2. Clic para visualizarlo”.
+    •	En enlace llevará a otra web siguiente formato de nombre de archivo: Por ejemplo: gon_san_sal_ex021219_ej2.html-->
+
+    <a href="" class="kir_tsi_kosClases1 Clases2kir_tsi_kos">Doble clase</a><br>
+    
+    
+    <!-- 13.Un enlace, centrado a nivel horizontal y vertical, que lleve a un ancla 
+        “ancla1extra” y que contenga a su vez un ancla “ancla2extra”. Tendrá el texto 
+        “Ir a la parte superior del examen de extra” (0.25 puntos). -->
+    <a href="#kir_tsi_kosancla1" id="kir_tsi_kosancla2">Ir a la parte superior del examen de kir_tsi_kos</a>
+</body>
+
 </html>

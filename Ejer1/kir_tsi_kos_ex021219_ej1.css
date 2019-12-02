@@ -1,0 +1,126 @@
+#kir_tsi_kosancla1{
+    display:block;
+    float: right;
+}
+
+.kir_tsi_kostClase1{
+    width: auto;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: cadetblue;
+    margin: auto;
+}
+.kir_tsi_kosParticular1{
+    outline-style: dotted;
+    outline-color: darkblue;
+    outline-width: 2px;
+    text-align: center;
+    padding: 15px;
+    color: crimson;
+}
+
+#kir_tsi_kosSpan{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.kir_tsi_kosImagen1{
+    display: block;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.kir_tsi_kosContenerdor{
+    width: 100%;
+    height: 300px;
+    border: solid 1px red;
+    display: flow-root;
+}
+div .kir_tsi_kosContenedora1{
+    float: right;
+    width: 80%;
+    height: 300px;
+    margin-top: 10em;
+    margin: auto;
+    text-align: center;
+    background-color: coral;
+    display: flow-root;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    color: rgb(56, 149, 224);
+}
+
+.kir_tsi_kosImagen2{
+    float: right;
+    width: 19.8%;
+    margin-left: 0%;
+    height: 100%;
+
+}
+
+.ollclase1kir_tsi_kos{
+    margin-top: 10em;
+}
+
+.kir_tsi_kosliclase1 {
+    
+    list-style-image: url("../Recursos/IconoBB1.jpg");
+
+}
+
+.ollclase1kir_tsi_kos li::first-letter {
+    color: #ff0000;
+    font-size: 2em;
+}
+
+.Contenedora2ekir_tsi_kos{
+    width: 90%;
+    margin: auto;
+    border: solid black 2px;
+}
+
+@font-face{
+    font-family: parrafoEspecial;
+    src: url("../Sulphur_Point/SulphurPoint-Light.ttf");
+}
+
+.kir_tsi_kosParrafoPersonalizado{
+    width: 100%;
+    color: green;
+    font-family: parrafoEspecial;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.kir_tsi_kosClases1{
+
+    text-decoration: none;
+    line-height: 2.2px;
+    text-align: center;
+    color: red;
+}
+
+
+.Clases2kir_tsi_kos:link {
+    color: sandybrown;
+}
+.Clases2kir_tsi_kos:visited {
+    color:red;
+}
+.Clases2kir_tsi_kos:hover {
+color:SpringGreen;
+}
+.Clases2kir_tsi_kos:active {
+color: LavenderBlush;
+}
+
+.kir_tsi_kosancla2{
+    width: 50%;
+
+    text-align: center;
+}
