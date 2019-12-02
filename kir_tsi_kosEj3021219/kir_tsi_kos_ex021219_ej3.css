@@ -1,0 +1,77 @@
+.principal_kir_tsi_kos{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    border: black solid 2px;
+}
+
+.FlotanteIzquierda_kir_tsi_kos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    border: solid 1px black;
+    background-color: chartreuse;
+}
+
+.FlotanteDerecha_kir_tsi_kos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 59%;
+    height: 100%;
+    border: solid 1px black;
+}
+
+.FloatIzq1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 85%;
+    border: solid 1px black;
+}
+
+.FloatIzq2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 59%;
+    height: 85%;
+    border: solid 1px black;
+    background-color: crimson;
+}
+
+.FloatIzq3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: right;
+    width: 33%;
+    height: 14%;
+    border: solid 1px black;
+    background-color: blue;
+}
+.FloatIzq4{
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    float: right;
+    width: 33%;
+    height: 14%;
+    border: solid 1px black;
+    background-color: red;
+}
+.FloatIzq5{
+    position: absolute;
+    bottom: 0;
+    left: 66%;
+    float: right;
+    width: 33%;
+    height: 14%;
+    border: solid 1px black;
+    background-color: brown;
+}
